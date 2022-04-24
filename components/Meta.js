@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from "next/head"
-const Meta = ({ description, keywords }) => {
+const Meta = ({ title, description, keywords }) => {
     return (
         <>
             <Head>
@@ -18,7 +18,7 @@ const Meta = ({ description, keywords }) => {
 Meta.defaultProps = {
     title: "RaselBlog",
     keywords: "Blogs,NFTs,Bitcoins",
-    description:'Be Upload Latest Blog'
+    description: 'Be Upload Latest Blog'
 }
 
 export default Meta;
